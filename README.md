@@ -1,22 +1,21 @@
-# Jeanius Power Washing Website Preview
+# Jeanius Power Washing Demo V5
 
-This version is intentionally built to feel like a real local-service website instead of a sales landing page.
+Multi-page static website demo for Jeanius Power Washing.
 
-## Files
-- `index.html` — full static site
-- `styles.css` — layout and styling
-- `script.js` — estimate calculator, address suggestions, and simple FAQ helper
-- `logo.jpg` — Jeanius logo asset
+## Pages
+- index.html
+- services.html
+- results.html
+- estimate.html
+- about.html
+- contact.html
 
-## Positioning changes in V3
-- Removed obvious “demo/sales pitch” language from the visible page
-- Made the homepage read like a real customer-facing service website
-- Kept the estimate tool, but framed it as a practical ballpark-estimate request
-- Kept the website helper, but treated it like a simple support feature instead of a flashy AI pitch
-- Improved contact flow so the site feels useful, not gimmicky
+## What changed in V5
+- Converted the site into a more believable small-business website
+- Added real before-and-after project photos
+- Added a dedicated Results page
+- Removed most of the “demo pitch” feel from the customer-facing pages
+- Kept the estimate and callback summaries so the site is still useful for lead intake
 
-## To publish
-1. Upload these files to the repo root.
-2. Commit to `main`.
-3. In **Settings → Pages**, choose **Deploy from a branch**.
-4. Select **main** and **/(root)**.
+## Deploy
+Upload all files to the root of the GitHub Pages repo and commit to `main`.
